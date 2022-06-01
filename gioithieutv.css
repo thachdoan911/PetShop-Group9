@@ -1,0 +1,47 @@
+.avtduc{
+    border-radius: 100px;
+    margin-left: 185px;
+}
+.button {
+    margin-bottom: 20px;
+    border: 0;
+    width: 250px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    margin-left: 130px;
+    transition-duration: 0.3s;
+}
+button:hover{
+    color:white;
+    background-color: rgb(16, 211, 120);
+}
+.avtthien{
+    border-radius: 100px;
+    margin-left: 660px;
+    margin-top: -1000px;
+}
+.copybutton{
+    margin-left: 605px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 250px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+}
+.avtthach{
+    border-radius: 100px;
+    margin-left:1115px;
+    margin-top: -1630px;
+}
+.delaybutton{
+    margin-left:1060px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 250px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+}
+.delaybutton:hover{
+    color:white;
+    background-color: rgb(16, 211, 120);
+}

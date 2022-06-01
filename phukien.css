@@ -1,0 +1,103 @@
+@import "style.css";
+
+/* SECTION */
+
+
+/* menu nội dung chính */
+
+.main {
+    width: 100%;
+    background-color: rgb(215, 245, 249);
+    padding: 10px;
+    display: flex;
+}
+
+.menu_main {
+    width: 30%;
+}
+
+.menu_main ul {
+    list-style-type: none;
+}
+
+.menu_main h1 {
+    background-color: #ff0000;
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu_main a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu_main a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ffa500;
+}
+
+
+/* nội dung chính */
+
+.info_main {
+    margin-left: 20px;
+    width: 50%;
+}
+
+.info_main>h1 {
+    background-color: #f2f2f2;
+    color: #000000;
+}
+
+.info {
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choose {
+    display: flex;
+}
+
+.dathang {
+    width:100%;
+    display: block;
+    padding:7px;
+    text-align: center;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.dathang {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    width: 80%;
+}
+
+.dathang:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 5px;
+    }
+    .tieude {
+        font-size: 2vw;
+    }
+    #nav_menu,
+    .info,
+    .section-content,
+    .info_product {
+        width: 100%;
+    }
+    .menu_main {
+        width: 50%;
+    }
+}
